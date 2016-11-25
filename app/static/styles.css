@@ -11,19 +11,26 @@ div.post-tabs {
 ul.posts {
     list-style-type: none;
     padding: 0px;
-    margin: 16px 0px 0px 0px;
+    margin: 30px 140px 10px 80px;
     border-top: 1px solid #e0e0e0;
+    font-size:17px; 
+    font-family:Arial,Helvetica,sans-serif;
 }
 div.post-tabs ul.posts {
-    margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 30px 140px 10px 80px;
+    border-top: 1px solid #e0e0e0;
+    font-size:17px; 
+    font-family:Arial,Helvetica,sans-serif;
     border-top: none;
 }
 ul.posts li.post {
     padding: 8px;
     border-bottom: 1px solid #e0e0e0;
 }
+
 ul.posts li.post:hover {
-    background-color: #f0f0f0;
 }
 div.post-date {
     float: right;
@@ -44,19 +51,20 @@ div.post-footer {
 ul.comments {
     list-style-type: none;
     padding: 0px;
-    margin: 16px 0px 0px 0px;
+    margin: 30px 160px 10px 80px;
 }
 ul.comments li.comment {
-    margin-left: 32px;
+    margin-left: 62px;
     padding: 8px;
     border-bottom: 1px solid #e0e0e0;
 }
 ul.comments li.comment:nth-child(1) {
     border-top: 1px solid #e0e0e0;
 }
+
 ul.comments li.comment:hover {
-    background-color: #f0f0f0;
 }
+
 div.comment-date {
     float: right;
 }
@@ -67,15 +75,15 @@ div.comment-thumbnail {
     position: absolute;
 }
 div.comment-content {
-    margin-left: 48px;
-    min-height: 48px;
+    margin-left: 60px;
+    min-height: 60px;
 }
 div.comment-form {
-    margin: 16px 0px 16px 32px;
+     margin: 30px 120px 10px 120px;
 }
 div.pagination {
     width: 100%;
-    text-align: right;
+    text-align: center;
     padding: 0px;
     margin: 0px;
 }
